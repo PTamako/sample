@@ -12,7 +12,7 @@ Vue.use(Router)
 
 export default new Router({
   mode: 'history',
-  // mode:'hash',
+  // mode: 'hash',
   routes: [
     {
       path: '/',
