@@ -12,7 +12,10 @@ module.exports = {
     proxyTable: {
       '/api': {
         target: 'http://localhost:8081',
-        changeOrigin: true
+        changeOrigin: true,//跨域设置
+        pathRewrite: {
+          '^/api': ''//重写接口访问
+        }
       }
     },
 

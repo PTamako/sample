@@ -72,22 +72,22 @@
           // js中调用图片必须要用require
           src: require('../assets/slideShow/pic1.jpg'),
           title: 'xxx1',
-          href: 'detail/count'
+          href: '#/detail/count'
         },
           {
             src: require('../assets/slideShow/pic2.jpg'),
             title: 'xxx2',
-            href: 'detail/count'
+            href: '#/detail/count'
           },
           {
             src: require('../assets/slideShow/pic3.jpg'),
             title: 'xxx3',
-            href: 'detail/count'
+            href: '#/detail/count'
           },
           {
             src: require('../assets/slideShow/pic4.jpg'),
             title: 'xxx4',
-            href: 'detail/count'
+            href: '#/detail/count'
           }],
         boardList: [
           {

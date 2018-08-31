@@ -11,8 +11,8 @@ import OrderListPage from '../pages/orderList'
 Vue.use(Router)
 
 export default new Router({
-  mode: 'history',
-  // mode: 'hash',
+  // mode: 'history',
+  mode: 'hash',
   routes: [
     {
       path: '/',
