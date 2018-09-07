@@ -9,11 +9,7 @@
 # install dependencies
 npm install
 npm install -g cnpm --registry=https://registry.npm.taobao.org
-cnpm install vuex --save
-cnpm install vue-resource --save
-cnpm install -g json-server
-cnpm install body-parser
-
+cnpm install
 # serve with hot reload at localhost:8080
 npm run dev
 cnpm run dev
